@@ -1,1 +1,49 @@
 [2025-07-20 16:36:33,676: INFO: main: Welcome to chestCancerClassifier]
+[2025-07-20 19:53:10,045: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-20 19:53:10,050: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-20 19:53:10,050: INFO: common: created directory at: artifacts]
+[2025-07-20 19:53:10,050: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-20 19:53:10,050: INFO: 1983665874: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-20 19:53:26,412: INFO: 1983665874: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-21 00:55:14,213: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-21 00:55:14,215: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\Siddhant\\Desktop\\config\\config.yaml']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "c:\users\siddhant\desktop\projects\cancer-prediction\src\chestCancerClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    config = ConfigurationManager()
+  File "c:\users\siddhant\desktop\projects\cancer-prediction\src\chestCancerClassifier\config\configuration.py", line 16, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\Siddhant\anaconda3\envs\cancer\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\siddhant\desktop\projects\cancer-prediction\src\chestCancerClassifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "c:\users\siddhant\desktop\projects\cancer-prediction\src\chestCancerClassifier\utils\common.py", line 30, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Siddhant\\Desktop\\config\\config.yaml'
+[2025-07-21 00:56:12,054: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-21 00:56:12,079: ERROR: main: [Errno 2] No such file or directory: 'C:\\Users\\Siddhant\\Desktop\\projects\\config\\config.yaml']
+Traceback (most recent call last):
+  File "main.py", line 10, in <module>
+    obj.main()
+  File "c:\users\siddhant\desktop\projects\cancer-prediction\src\chestCancerClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    config = ConfigurationManager()
+  File "c:\users\siddhant\desktop\projects\cancer-prediction\src\chestCancerClassifier\config\configuration.py", line 16, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\Siddhant\anaconda3\envs\cancer\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\siddhant\desktop\projects\cancer-prediction\src\chestCancerClassifier\utils\common.py", line 37, in read_yaml
+    raise e
+  File "c:\users\siddhant\desktop\projects\cancer-prediction\src\chestCancerClassifier\utils\common.py", line 30, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Siddhant\\Desktop\\projects\\config\\config.yaml'
+[2025-07-21 00:56:29,494: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-21 00:56:29,503: INFO: common: yaml file: C:\Users\Siddhant\Desktop\projects\Cancer-Prediction\config\config.yaml loaded successfully]
+[2025-07-21 00:56:29,503: INFO: common: yaml file: C:\Users\Siddhant\Desktop\projects\Cancer-Prediction\params.yaml loaded successfully]
+[2025-07-21 00:56:29,503: INFO: common: created directory at: artifacts]
+[2025-07-21 00:56:29,503: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-21 00:56:29,511: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-21 00:56:46,443: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-21 00:56:47,510: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

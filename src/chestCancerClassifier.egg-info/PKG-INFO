@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: chestCancerClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/SiddhantKotak/Cancer-Prediction
+Author: SiddhantKotak
+Author-email: siddharthkotak280@gmail.com
+Project-URL: Bug Tracker, https://github.com/SiddhantKotak/Cancer-Prediction/issues
+
+# Cancer-Prediction
+End to End deep learning project using mlflow and dvc
